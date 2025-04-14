@@ -73,6 +73,14 @@ SimplexSans was developed as a typographic experiment rooted in analog construct
 - Trispace font: to allow rhythmic typographic patterns without relying on variable widths or kerning
 - No optical corrections — all shapes are purely constructed and follow the logic of the grid
 
+## Technical Details
+
+- Formats: OTF and WOFF2
+- Character set includes:
+  - Basic Latin (A–Z, a–z, numerals, punctuation)
+  - Essential symbols and selected extended Latin characters
+- No kerning — spacing is fully modular
+
 Don't hesitate to create images!
 
 ![Sample Image](documentation/image1.png)
