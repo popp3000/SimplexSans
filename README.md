@@ -59,7 +59,19 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+**SimplexSans** is a modular, grid-based display typeface inspired by the era of manual lettering — a time when type wasn’t designed on screens, but drawn by hand with ruler and compass. 
+
+## Concept
+
+SimplexSans was developed as a typographic experiment rooted in analog construction techniques. Every glyph is based on a strict modular system, allowing the shapes to be drawn manually on graph paper using only a ruler and a compass. The result is a display typeface that feels both mechanical and human, rational and playful.
+
+## Design Characteristics
+
+- Geometric, monolinear construction
+- Based on a uniform grid system for consistency and reproducibility
+- Designed for display use: headlines, signage, editorial experiments
+- Trispace font: to allow rhythmic typographic patterns without relying on variable widths or kerning
+- No optical corrections — all shapes are purely constructed and follow the logic of the grid
 
 Don't hesitate to create images!
 
@@ -68,7 +80,7 @@ Don't hesitate to create images!
 
 ## About
 
-Description of you and/or organisation goes here.
+Designed by [Markus Popp](https://github.com/markuspopp)
 
 ## Building
 
@@ -97,6 +109,6 @@ Changelog example:
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at https://openfontlicense.org
 
-## Repository Layout
+## Contribution & Feedback
 
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+SimplexSans is a personal project but open to feedback, critique, and potential collaboration. Feel free to open an issue or submit a pull request.
