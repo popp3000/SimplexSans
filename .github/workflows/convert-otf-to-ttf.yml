@@ -34,10 +34,13 @@ jobs:
           done
 
       - name: Commit and push TTF files
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add fonts/*.ttf
-          git commit -m "Auto-converted OTF to TTF"
-          git push
+          git commit -m "Auto-converted OTF to TTF" || echo "No changes to commit"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
+          git push origin main
 
