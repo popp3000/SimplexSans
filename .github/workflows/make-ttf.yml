@@ -20,5 +20,5 @@ jobs:
 
       - name: Build TTF from Glyphs
         run: |
-        mkdir -p fonts
-        fontmake -g SimplexSans-Regular.glyphs -o ttf --output-dir fonts
+          mkdir -p fonts
+          fontmake -g SimplexSans-Regular.glyphs -o ttf --output-dir fonts
