@@ -1,6 +1,7 @@
 name: Convert OTF to TTF
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "fonts/*.otf"
