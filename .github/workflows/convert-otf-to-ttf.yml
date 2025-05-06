@@ -1,0 +1,43 @@
+name: Convert OTF to TTF
+
+on:
+  push:
+    paths:
+      - "fonts/*.otf"
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install fonttools + cu2qu
+        run: |
+          pip install fonttools cu2qu
+
+      - name: Convert OTF to TTF
+        run: |
+          for f in fonts/*.otf; do
+            pyftsubset "$f" \
+              --output-file="${f%.otf}.ttf" \
+              --flavor=truetype \
+              --layout-features='*' \
+              --glyphs='*' \
+              --drop-tables='' \
+              --retain-gids
+          done
+
+      - name: Commit and push TTF files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add fonts/*.ttf
+          git commit -m "Auto-converted OTF to TTF"
+          git push
+
