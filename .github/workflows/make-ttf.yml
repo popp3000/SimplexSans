@@ -19,6 +19,6 @@ jobs:
         run: pip install fontmake
 
       - name: Build TTF from Glyphs
-	run: |
-	  mkdir -p fonts
-	  fontmake -g SimplexSans-Regular.glyphs -o ttf --output-dir fonts
+        run: |
+        mkdir -p fonts
+        fontmake -g SimplexSans-Regular.glyphs -o ttf --output-dir fonts
