@@ -22,3 +22,9 @@ jobs:
         run: |
           mkdir -p fonts
           fontmake -g sources/SimplexSans-Regular.glyphs -o ttf --output-dir fonts
+      
+      - name: Upload TTF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: simplex-ttf
+          path: fonts/*.ttf
