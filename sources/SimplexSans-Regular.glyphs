@@ -1,11 +1,5 @@
 {
 .appVersion = "118";
-DisplayStrings = (
-"IJ/idotless/jdotless",
-"/acutecomb",
-"/Ecaron",
-"#"
-);
 copyright = "Copyright 2025 The SimplexSans Project Authors (https://github.com/popp3000/SimplexSans)";
 customParameters = (
 {
@@ -11649,27 +11643,11 @@ unicode = 00F2;
 },
 {
 glyphname = ohungarumlaut;
-lastChange = "2025-05-06 20:22:44 +0000";
+lastChange = "2025-05-07 18:18:37 +0000";
 layers = (
 {
 layerId = "A5D64CBF-1778-47FF-82B6-0C31E83264E6";
 paths = (
-{
-closed = 0;
-nodes = (
-"272 704 LINE",
-"238 736 LINE",
-"146 638 LINE"
-);
-},
-{
-closed = 0;
-nodes = (
-"371 704 LINE",
-"337 736 LINE",
-"245 638 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -11677,6 +11655,15 @@ nodes = (
 "180 606 LINE",
 "272 704 LINE",
 "238 736 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"279 606 LINE",
+"371 704 LINE",
+"337 736 LINE",
+"245 638 LINE"
 );
 },
 {
@@ -11715,15 +11702,6 @@ nodes = (
 "187 76 OFFCURVE",
 "146 117 OFFCURVE",
 "146 167 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"279 606 LINE",
-"371 704 LINE",
-"337 736 LINE",
-"245 638 LINE"
 );
 }
 );
@@ -13595,27 +13573,11 @@ unicode = 00F9;
 },
 {
 glyphname = uhungarumlaut;
-lastChange = "2025-05-06 20:22:44 +0000";
+lastChange = "2025-05-07 18:19:07 +0000";
 layers = (
 {
 layerId = "A5D64CBF-1778-47FF-82B6-0C31E83264E6";
 paths = (
-{
-closed = 0;
-nodes = (
-"272 704 LINE",
-"238 736 LINE",
-"146 638 LINE"
-);
-},
-{
-closed = 0;
-nodes = (
-"371 704 LINE",
-"337 736 LINE",
-"245 638 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -13647,10 +13609,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"146 638 LINE",
 "180 606 LINE",
 "272 704 LINE",
-"238 736 LINE",
-"146 638 LINE"
+"238 736 LINE"
 );
 },
 {
