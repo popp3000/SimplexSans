@@ -1,4 +1,4 @@
-Copyright 2025 The SimplexSans Authors (https://markuspopp.com/simplex)
+Copyright 2025 The SimplexSans Project Authors (https://github.com/popp3000/SimplexSans)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
