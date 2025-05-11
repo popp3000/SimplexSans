@@ -60,7 +60,7 @@ def main():
     for font_path in font_paths:
         try:
             fix_font_file(font_path)
-            print(f"✅ {font_path.name} fertig\n")
+            print(f"✅✅ {font_path.name} fertig\n")
         except Exception as e:
             print(f"❌ Fehler bei {font_path.name}: {e}")
 
