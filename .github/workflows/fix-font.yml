@@ -1,0 +1,23 @@
+name: Fix Font Issues
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fix-font:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install gftools fonttools
+
+      - name: Run font fix script
+        run: python scripts/fix_font.py
+
