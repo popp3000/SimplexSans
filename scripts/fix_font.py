@@ -39,7 +39,7 @@ def fix_name_table(font):
 
 def apply_autohint(font_path):
     temp_path = font_path.with_name(font_path.stem + "-fix.ttf")
-    subprocess.run(["gftools", "fix-nonhinting", str(font_path), str(temp_path), "--autofix"], check=True)
+    subprocess.run(["gftools", "fix-nonhinting", str(font_path), str(temp_path)], check=True)
     temp_path.replace(font_path)
 
 def fix_font_file(font_path):
