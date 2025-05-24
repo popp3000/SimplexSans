@@ -12,3 +12,6 @@ Thumbs.db
 reports/
 run_gf_ttf.py
 run_gf_otf.py
+
+# Archiv ignorieren
+Fonts-archive/
